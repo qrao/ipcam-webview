@@ -8,15 +8,17 @@ as controlling them.
 
 ## Getting Started
 
-Download the repo, and edit the camera.js file, and put in your own setup at the top, in the cameras section.
+Download the repo, and edit the camera.js file, and put in your own setup at the top in the cameras section.
 For each object in the cameras array, video field specifies where the video URL is, and control field specifies
-where the control URL is.
+where the control URL is. Some example values are shown.
 
 Then just open the camera.html in your browser. Ensure camera.js is in the same directory.
 
-### Prerequisites
+### Usage
 
-NONE
+On default, the videos are displayed in a iframes in a grid, at 640x480 resolution. On click of a video, the
+frame changes to control mode, where you can control the camera behavior. To go back to video mode, click on
+the "<- Back to Video" link at the top of the frame.
 
 ## License
 
