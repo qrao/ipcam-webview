@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <script src="camera.js"></script>
+
+  <style>
+    .cam {
+      width:640px;
+      height:480px;
+      display: inline-block;
+    }
+    .cam_control {
+      width:640px;
+      height:460px;
+      display: inline-block;
+    }
+    .cam iframe{
+      pointer-events: none; /* let any clicks go trough me */
+    }
+  </style>
+  </head>
+  <body onload="monitor.init()">
+  </body>
+</html>
